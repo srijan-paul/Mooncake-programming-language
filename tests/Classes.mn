@@ -1,0 +1,28 @@
+class Animal:
+       
+        init(sound):
+            this.sound = sound;
+        end
+
+        eat():
+            print "nom nom";
+            print this.sound;
+        end
+    end
+
+    class Dog <- Animal:
+
+        init(name, sound):
+            super(sound);
+            this.name = name;
+        end
+
+        bark():
+            print this.name + " says " + this.sound;
+        end
+    end
+    
+def animal = new Animal("Woof"),
+spike = new Dog("Spike", "Bow Bow !!");
+animal.eat();
+spike.bark();

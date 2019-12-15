@@ -1,0 +1,8 @@
+def n = 10, output = "";
+for(def i = 1; i <= n; i = i + 1):
+    if (i % 3 == 0) output = output + "Fizz";
+    if (i % 5 == 0) output = output + "Buzz";
+    if (output != "") print output;
+    else print i;
+    output = "";
+end
