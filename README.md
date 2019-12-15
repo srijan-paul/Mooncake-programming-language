@@ -63,7 +63,7 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+## About The Project :cake:
 
 [![Product Name Screen Shot][product-screenshot]]
 
