@@ -53,9 +53,7 @@
   * [Built With](#built-with)
 * [Getting Started](#getting-started)
   * [Prerequisites](#prerequisites)
-  * [Installation](#installation)
 * [Usage](#usage)
-* [Roadmap](#roadmap)
 * [Contributing](#contributing)
 * [License](#license)
 * [Contact](#contact)
@@ -86,6 +84,50 @@ node cli-launcher.js
 All you need is node.js to run the cli-launcher in your terminal.
 
 * node-js
+
+
+## Syntax
+Mooncake has a clean syntax which borrows a little bit from both Javascript and python.
+
+# Hello World.
+```
+print "Hello, World!";
+```
+
+# Classes and Inheritance.
+
+```
+class Animal:
+       
+        init(sound):
+            this.sound = sound;
+        end
+
+        eat():
+            print "nom nom";
+            print this.sound;
+        end
+    end
+
+   # the '<-' token is like the 'extend' keyword
+   # in other languages
+   class Dog <- Animal:
+
+        init(name, sound):
+            super(sound);
+            this.name = name;
+        end
+
+        bark():
+            print this.name + " says " + this.sound;
+        end
+    end
+    
+def animal = new Animal("Woof"), spike = new Dog("Spike", "Bark Bark !!");
+animal.eat(); #nom nom Woof
+spike.bark(); #Bark Bark
+```
+
 
 
 <!-- USAGE EXAMPLES -->
@@ -147,5 +189,6 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 [stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
 [issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=flat-square
 [issues-url]: https://github.com/tiltproofRain/Mooncake-programming-language/issues
+[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=flat-square
 [license-url]: https://github.com/tiltproofRain/Mooncake-programming-language/blob/master/LICENCE.txt
 [product-screenshot]: images/screenshot.png
