@@ -63,16 +63,16 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project :cake:
+## About The Project
 
 [![Product Name Screen Shot][product-screenshot]]
 
-Mooncake is a programming language written in javascript.
+Mooncake :cake: is a compact compile-to-JS programming language written in javascript.
 It has a hand written Lexer and Parser. And it compiles to javascript with the help of hand written transpiler.
-The goal was to learn the craft of generating ASTs from code. I hope to implement a (slower) tree walk Interpreter soon enough.
+The goal was to learn the craft of generating ASTs from lexemes all the while creating a programming language with all the features one would expect in place. I hope to implement a (slower) tree walk Interpreter soon enough.
 
 ### Built With
-Mooncake is writte in ES6 javascript.  you will need node js to run and execute it in the terminal.
+Mooncake is writte in javascript(ES6).  you will need NodeJS to run and execute it in the terminal.
 A browser version will be added soon.
 
 <!-- GETTING STARTED -->
@@ -117,8 +117,6 @@ Contributions are what make the open source community such an amazing place to b
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
-
-
 <!-- CONTACT -->
 ## Contact
 
@@ -130,10 +128,11 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
+
+* [Crafting Interpreters](http://www.craftinginterpreters.com/)
 * [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
 * [Choose an Open Source License](https://choosealicense.com)
 * [GitHub Pages](https://pages.github.com)
-* [Crafting Interpreters](http://www.craftinginterpreters.com/)
 
 
 
@@ -141,15 +140,12 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=flat-square
-[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
+[contributors-url]: https://github.com/tiltproofRain/Mooncake-programming-language/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=flat-square
 [forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
 [stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=flat-square
 [stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
 [issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=flat-square
-[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=flat-square
-[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/othneildrew
+[issues-url]: https://github.com/tiltproofRain/Mooncake-programming-language/issues
+[license-url]: https://github.com/tiltproofRain/Mooncake-programming-language/blob/master/LICENCE.txt
 [product-screenshot]: images/screenshot.png
