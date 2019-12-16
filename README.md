@@ -143,7 +143,7 @@ Functions are declared using the `fn` keyword. Here is an example of a recursive
 ```
 fn fib(n):
         if(n <= 1) return 1; 
-        else return fib(n - 1) + fib(n - 2);
+        return fib(n - 1) + fib(n - 2);
 end
 print fib(8); # outputs 34
 ```
