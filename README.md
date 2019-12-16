@@ -38,9 +38,9 @@
     <a href="#"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="issues">Report Bug</a>
+    <a href="https://github.com/tiltproofRain/Mooncake-programming-language/issues">Report Bug</a>
     ·
-    <a href="issues">Request Feature</a>
+    <a href="https://github.com/tiltproofRain/Mooncake-programming-language/issues">Request Feature</a>
   </p>
 </p>
 
