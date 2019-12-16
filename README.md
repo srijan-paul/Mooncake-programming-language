@@ -249,11 +249,11 @@ Project Link: [https://github.com/tiltproofRain/Mooncake-programming-language](h
 [contributors-url]: https://github.com/tiltproofRain/Mooncake-programming-language/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/tiltproofRain/Mooncake-programming-language.svg?style=flat-square
 [forks-url]: https://github.com/tiltproofRain/Mooncake-programming-language/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=flat-square
+[stars-shield]: https://img.shields.io/github/stars/tiltproofRain/Mooncake-programming-language.svg?style=flat-square
 [stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=flat-square
+[issues-shield]: https://img.shields.io/github/issues/tiltproofRain/Mooncake-programming-language.svg?style=flat-square
 [issues-url]: https://github.com/tiltproofRain/Mooncake-programming-language/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=flat-square
+[license-shield]: https://img.shields.io/github/license/tiltproofRain/Mooncake-programming-language.svg?style=flat-square
 [license-url]: https://github.com/tiltproofRain/Mooncake-programming-language/blob/master/LICENCE.txt
 [product-screenshot]: images/screenshot.png
 [lexer-url]: https://github.com/tiltproofRain/Mooncake-programming-language/tree/master/src/Lexer
