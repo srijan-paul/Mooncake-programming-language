@@ -66,7 +66,7 @@
 [![Product Name Screen Shot][product-screenshot]]
 
 Mooncake :cake: is a compact, dynamically typed compile-to-JS programming language written in javascript.
-It has a hand written Lexer and Parser. And it compiles to javascript with the help of hand written transpiler.
+It has a hand written [!Lexer][lexer-url] and [!Parser][parser-url]. And it compiles to javascript with the help of hand written transpiler.
 The goal was to learn the craft of generating ASTs from lexemes all the while creating a programming language with all the features one would expect in place. I hope to implement a (slower) tree walk Interpreter soon enough.
 
 ### Built With
@@ -92,6 +92,7 @@ Mooncake has a clean syntax which borrows a little bit from both Javascript and 
 ### Hello World.
 You can use the print statement to print something onto the console / terminal. 
 The syntax is similar to that of Python 2's print. 
+
 ```
 print "Hello, World!";
 ```
@@ -106,7 +107,7 @@ print name;
 
 ### Looping
 
-As of version 1.0.0 , Mooncake has two classing loops, `for` and `while`.
+As of version 1.0.0 , Mooncake has two classic loops, `for` and `while`.
 
 ```
 def a = [1, 2 ,3];
@@ -146,9 +147,18 @@ fn fib(n):
 end
 print fib(8); # outputs 34
 ```
-### 
 
 ### Classes and Inheritance.
+Classes are declared using the `class` keyword followed by the class name. 
+You can add an `init` function as a constructor.
+
+Classes can be extended using the `<-` keyword.
+
+```
+subclass <- superclass:
+    #class-body
+end
+```
 
 ```
 class Animal:
@@ -246,3 +256,5 @@ Project Link: [https://github.com/tiltproofRain/Mooncake-programming-language](h
 [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=flat-square
 [license-url]: https://github.com/tiltproofRain/Mooncake-programming-language/blob/master/LICENCE.txt
 [product-screenshot]: images/screenshot.png
+[lexer-url]: https://github.com/tiltproofRain/Mooncake-programming-language/tree/master/src/Lexer
+[parser-url]: https://github.com/tiltproofRain/Mooncake-programming-language/blob/master/src/Parser/MoonCake.js
