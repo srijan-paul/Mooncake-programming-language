@@ -65,12 +65,12 @@
 
 [![Product Name Screen Shot][product-screenshot]]
 
-Mooncake :cake: is a compact compile-to-JS programming language written in javascript.
+Mooncake :cake: is a compact, dynamically typed compile-to-JS programming language written in javascript.
 It has a hand written Lexer and Parser. And it compiles to javascript with the help of hand written transpiler.
 The goal was to learn the craft of generating ASTs from lexemes all the while creating a programming language with all the features one would expect in place. I hope to implement a (slower) tree walk Interpreter soon enough.
 
 ### Built With
-Mooncake is writte in javascript(ES6).  you will need NodeJS to run and execute it in the terminal.
+Mooncake is writte in javascript (ES6).  you will need NodeJS to run and execute it in the terminal.
 A browser version will be added soon.
 
 <!-- GETTING STARTED -->
@@ -89,12 +89,66 @@ All you need is node.js to run the cli-launcher in your terminal.
 ## Syntax
 Mooncake has a clean syntax which borrows a little bit from both Javascript and python.
 
-# Hello World.
+### Hello World.
+You can use the print statement to print something onto the console / terminal. 
+The syntax is similar to that of Python 2's print. 
 ```
 print "Hello, World!";
 ```
 
-# Classes and Inheritance.
+### Variable Declaration.
+Variables are declared using the 'def' keyword.
+
+```
+def name = "Humpty Dumpty";
+print name;
+```
+
+### Looping
+
+As of version 1.0.0 , Mooncake has two classing loops, `for` and `while`.
+
+```
+def a = [1, 2 ,3];
+for(def i = 0; i < 3; i = i + 1):
+    print a[i];
+end
+```
+
+```
+def a = [1, 2, 3];
+def index = 0;
+while (index < a.length) : 
+  #code
+end
+```
+
+### If-else statements
+
+Note that for chained if else statements, we put all the `end` keywords at the end instead of having one at the end of every branch because that looks cleaner.
+```
+if condition:
+  #code
+else if condition:
+  #code
+else:
+  #code
+end end end
+```
+
+### Function Declaration and calling.
+Functions are declared using the `fn` keyword. Here is an example of a recursive function to print the nth Fibonacci number.
+
+```
+fn fib(n):
+        if(n <= 1) return 1; 
+        else return fib(n - 1) + fib(n - 2);
+end
+print fib(8); # outputs 34
+```
+### 
+
+### Classes and Inheritance.
 
 ```
 class Animal:
@@ -164,7 +218,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Email: srijannr1@gmail.com
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Project Link: [https://github.com/tiltproofRain/Mooncake-programming-language](https://github.com/tiltproofRain/Mooncake-programming-language)
 
 
 
