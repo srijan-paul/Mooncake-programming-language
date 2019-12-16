@@ -27,7 +27,7 @@
 <br />
 <p align="center">
   <a href="#">
-    <img src="https://i.imgur.com/MJwS926.png" alt="Logo" width="200" height="200">
+    <img src="./assets/imgs/logo-final.png" alt="Logo" width="200" height="200">
   </a>
 
   <h3 align="center">Mooncake programming language</h3>
