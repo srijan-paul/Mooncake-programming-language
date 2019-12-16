@@ -247,7 +247,7 @@ Project Link: [https://github.com/tiltproofRain/Mooncake-programming-language](h
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/tiltproofRain/Mooncake-programming-language.svg?style=flat-square
 [contributors-url]: https://github.com/tiltproofRain/Mooncake-programming-language/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=flat-square
+[forks-shield]: https://img.shields.io/github/forks/tiltproofRain/Mooncake-programming-language.svg?style=flat-square
 [forks-url]: https://github.com/tiltproofRain/Mooncake-programming-language/network/members
 [stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=flat-square
 [stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
