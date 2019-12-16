@@ -66,7 +66,7 @@
 [![Product Name Screen Shot][product-screenshot]]
 
 Mooncake :cake: is a compact, dynamically typed compile-to-JS programming language written in javascript.
-It has a hand written [!Lexer][lexer-url] and [!Parser][parser-url]. And it compiles to javascript with the help of hand written transpiler.
+It has a hand written [Lexer][lexer-url] and [Parser][parser-url]. And it compiles to javascript with the help of hand written transpiler.
 The goal was to learn the craft of generating ASTs from lexemes all the while creating a programming language with all the features one would expect in place. I hope to implement a (slower) tree walk Interpreter soon enough.
 
 ### Built With
